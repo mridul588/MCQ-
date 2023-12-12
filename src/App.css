@@ -1,0 +1,63 @@
+/* App.css */
+body {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.app {
+  text-align: center;
+}
+
+.question-container {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px;
+}
+
+.options-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.option {
+  cursor: pointer;
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.option:hover {
+  background-color: #f0f0f0;
+}
+
+.option.selected {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #dd7d7d;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.result-container {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px;
+}
